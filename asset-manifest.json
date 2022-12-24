@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Padoru-wishes/static/css/main.fdd62df1.css",
-    "main.js": "/Padoru-wishes/static/js/main.8a8b8e88.js",
+    "main.js": "/Padoru-wishes/static/js/main.6c1d305c.js",
     "index.html": "/Padoru-wishes/index.html",
     "main.fdd62df1.css.map": "/Padoru-wishes/static/css/main.fdd62df1.css.map",
-    "main.8a8b8e88.js.map": "/Padoru-wishes/static/js/main.8a8b8e88.js.map"
+    "main.6c1d305c.js.map": "/Padoru-wishes/static/js/main.6c1d305c.js.map"
   },
   "entrypoints": [
     "static/css/main.fdd62df1.css",
-    "static/js/main.8a8b8e88.js"
+    "static/js/main.6c1d305c.js"
   ]
 }
