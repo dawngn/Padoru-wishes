@@ -11,9 +11,10 @@ function App() {
     var timer = setInterval(function() {
     window.open(url,"", "width=500,height=500"); 
   }, 2000);
+
   setTimeout(function() {
     clearInterval(timer);
-  }, 10000);
+  }, 100000);
   }
   return (
     
