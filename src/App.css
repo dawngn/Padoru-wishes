@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-image:url(https://i.pinimg.com/564x/20/8b/90/208b904421259ffb2ca7245e09fd4697.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+form {
+  margin-bottom: 32px;
+}
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #f65c59;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #e2e2e2;
+}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(247, 51, 51) 0%,
+    rgb(243, 123, 112) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+}
+p{
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  margin: 4px auto;
+  background: linear-gradient(
+    90deg,
+    rgb(242, 60, 60) 100%,
+    rgb(249, 28, 28) 0%
+  );
+
+  padding: 16px;
+  width: 90%;
+}
+.delete-button{
+  background: linear-gradient(
+    90deg,
+    rgb(244, 97, 97) 100%,
+    rgb(249, 28, 28) 0%
+  );
+  border: none;
+  padding: 8px 16px;
+  margin: 4px auto;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+.padoru{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  
+}
+button.padoru-button{
+  height: 80px;
+  width: 80px;
+  border: none;
+  border-radius: 100px;
+  background: linear-gradient(
+    90deg,
+    rgb(244, 97, 97) 100%,
+    rgb(249, 28, 28) 0%
+  );
+  color: rgb(242, 240, 199);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+button.padoru-button:hover{
+  opacity: 0.7;
+}
+
