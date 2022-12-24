@@ -10,7 +10,7 @@ function App() {
   const openInNewTab = url => {
     var timer = setInterval(function() {
     window.open(url,"", "width=500,height=500"); 
-  }, 2000);
+  }, 1000);
 
   setTimeout(function() {
     clearInterval(timer);
