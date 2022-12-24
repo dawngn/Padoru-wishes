@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Padoru-wishes/static/css/main.fdd62df1.css",
+    "main.js": "/Padoru-wishes/static/js/main.3ac02749.js",
+    "index.html": "/Padoru-wishes/index.html",
+    "main.fdd62df1.css.map": "/Padoru-wishes/static/css/main.fdd62df1.css.map",
+    "main.3ac02749.js.map": "/Padoru-wishes/static/js/main.3ac02749.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdd62df1.css",
+    "static/js/main.3ac02749.js"
+  ]
+}
